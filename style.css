@@ -12,8 +12,14 @@ body{
     height:100%;
 }
 
-.container a{
+.container anest-links-1{
     position: absolute;
-    top: 100px;
-    left:100px;
+    top: 5%;
+    left: 5%;
+}
+
+.container anest-links-2{
+    position: absolute;
+    top: 50%;
+    left:50%;
 }
