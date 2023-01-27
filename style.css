@@ -12,8 +12,8 @@ body{
     height:100%;
 }
 
-.topleft a{
+.container a{
     position: absolute;
-    top: 20px;
-    left:20px;
+    top: 10px;
+    left:30px;
 }
