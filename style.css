@@ -12,13 +12,13 @@ body{
     height:100%;
 }
 
-.container nest-links-1{
+.nest-links-1{
     position: absolute;
-    top: 20px;
-    left: 100px;
+    top: 5%;
+    left: 5%;
 }
 
-.container nest-links-2{
+.nest-links-2{
     position: absolute;
     top: 50%;
     left:50%;
