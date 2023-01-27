@@ -12,13 +12,13 @@ body{
     height:100%;
 }
 
-.container anest-links-1{
+.container nest-links-1{
     position: absolute;
-    top: 20px;
-    left: 100px;
+    top: 2%;
+    left: 5%;
 }
 
-.container anest-links-2{
+.container nest-links-2{
     position: absolute;
     top: 50%;
     left:50%;
