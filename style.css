@@ -14,8 +14,8 @@ body{
 
 .container nest-links-1{
     position: absolute;
-    top: 2%;
-    left: 5%;
+    top: 20px;
+    left: 100px;
 }
 
 .container nest-links-2{
