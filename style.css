@@ -46,40 +46,54 @@ h1{
     position: absolute;
     top: 15%;
     left:10%;
+    max-width: 100%;
+    max-height: 100vh;
 }
 
 .nest-pics-3{
     position: absolute;
     top: 40%;
     left:30%;
+    max-width: 100%;
+    max-height: 100vh;
 }
 
 .nest-pics-4{
     position: absolute;
     top: 30%;
     left:50%;
+    max-width: 100%;
+    max-height: 100vh;
 }
 
 .nest-pics-5{
     position: absolute;
     top: 30%;
     left:50%;
+    max-width: 100%;
+    max-height: 100vh;
 }
 
 .nest-pics-6{
     position: absolute;
     top: 20%;
     left:70%;
+    max-width: 100%;
+    max-height: 100vh;
 }
 
 .nest-pics-7{
     position: absolute;
     top: 5%;
     left:90%;
+    max-width: 100%;
+    max-height: 100vh;
 }
 
 .nest-pics-8{
     position: absolute;
     top: 5%;
     left:90%;
+    max-width: 100%;
+    max-height: 100vh;
 }
