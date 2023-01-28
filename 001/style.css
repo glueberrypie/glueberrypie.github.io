@@ -4,7 +4,5 @@ html, body {
 }
 
 canvas {
-  position: absolute;
-  top: 200px;
-  left: 200px;
+  margin: 200px;
 }
