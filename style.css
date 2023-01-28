@@ -20,6 +20,12 @@ body{
 
 .nest-links-2{
     position: absolute;
-    top: 47%;
+    top: 46%;
     left:50%;
+}
+
+.nest-links-3{
+    position: absolute;
+    top: 8%;
+    right:8%;
 }
