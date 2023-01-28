@@ -2,6 +2,10 @@ body{
     font-family: Arial, sans-serif;
 }
 
+h1{
+    margin:20px;
+}
+
 .container{
     position: relative;
     text-align: center;
