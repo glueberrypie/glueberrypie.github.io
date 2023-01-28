@@ -48,7 +48,14 @@ h1{
     left:10%;
     width: 200px;
     height: 200px;
+    transition: transform .2s;
 }
+
+.nest-pics-2:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
 
 .nest-pics-3{
     position: absolute;
@@ -72,7 +79,14 @@ h1{
     left:50%;
     width: 200px;
     height: 200px;
+    transition: transform .2s;
 }
+
+.nest-pics-5:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
 
 .nest-pics-6{
     position: absolute;
@@ -96,4 +110,11 @@ h1{
     left:90%;
     width: 200px;
     height: 200px;
+    transition: transform .2s;
 }
+
+.nest-pics-8:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
