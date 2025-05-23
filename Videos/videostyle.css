@@ -1,0 +1,15 @@
+@font-face {
+    font-family: myFirstFont;
+    src:
+        url('./D-DIN.otf') 
+        format('opentype');
+}
+
+body {
+    font-family: myFirstFont;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 使内容垂直居中 */
+    margin: 0;
+}
