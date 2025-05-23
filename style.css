@@ -27,6 +27,22 @@
     position: fixed;
     top: 10px;
 }
+.logo{
+    position: absolute;
+    position:fixed;
+    top:60px;
+    left:20px;
+    transform: rotate(10deg);
+    transform-origin: right;
+}
+
+.more{
+    position:fixed;
+    bottom:0;
+    left:95px;
+    /* transform: rotate(90deg); */
+    /* transform-origin: right bottom;  */
+}
 
 .column.right{
     width: 60%;
@@ -60,9 +76,9 @@
     transform-origin: left bottom;
     margin: -20px;
 }
-
-
-/* .column.right div{
-    background-color:aliceblue;
-    height: 400px;
-}*/
+.ProjectADDtext{
+    display: inline-block;
+    transform: rotate(90deg);
+    transform-origin: left bottom;
+    margin: -20px;
+}
