@@ -4,17 +4,6 @@
         url('./D-DIN.otf') 
         format('opentype');
 }
-
-/* .container{
-    clear: both;
-}
-
-.container::before, .container::after{
-    content: '';
-    display: table;
-    clear: both;
-} */
-
 .column.left{
     width: 30%;
     font-family: myFirstFont;
