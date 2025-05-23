@@ -4,25 +4,14 @@
         url('./D-DIN.otf') 
         format('opentype');
 }
-
-/* .container{
-    clear: both;
-}
-
-.container::before, .container::after{
-    content: '';
-    display: table;
-    clear: both;
-} */
-
 .column.left{
     width: 30%;
     font-family: myFirstFont;
     font-size: 15px;
     padding: 30px;
-    text-align: left;
+    text-align: justify;
     line-height: 1.5;
-    display: inline-block;
+    /* display: inline-block; */
     float: left;
     position: fixed;
     top: 10px;
@@ -39,8 +28,16 @@
 .more{
     position:fixed;
     bottom:0;
-    left:95px;
+    left:165px;
     /* transform: rotate(90deg); */
+    /* transform-origin: right bottom;  */
+}
+
+.moremore{
+    position:fixed;
+    bottom:0;
+    left:10px;
+    transform: scaleY(1);
     /* transform-origin: right bottom;  */
 }
 
@@ -48,35 +45,11 @@
     width: 60%;
     font-family: myFirstFont;
     font-size: 18px;
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: top;
     float: right;
 }
-.ProjectAtext{
-    display: inline-block;
-    transform: rotate(90deg);
-    transform-origin: left bottom;
-    margin: -20px;
-}
-.ProjectBtext{
-    display: inline-block;
-    transform: rotate(90deg);
-    transform-origin: left bottom;
-    margin: -20px;
-}
-.ProjectCtext{
-    display: inline-block;
-    transform: rotate(90deg);
-    transform-origin: left bottom;
-    margin: -20px;
-}
-.ProjectDtext{
-    display: inline-block;
-    transform: rotate(90deg);
-    transform-origin: left bottom;
-    margin: -20px;
-}
-.ProjectADDtext{
+.ProjectAtext, .ProjectBtext, .ProjectCtext, .ProjectDtext, .ProjectADDtext{
     display: inline-block;
     transform: rotate(90deg);
     transform-origin: left bottom;
