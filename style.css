@@ -4,6 +4,15 @@
         url('./D-DIN.otf') 
         format('opentype');
 }
+canvas {
+    position: fixed; /* 固定在窗口 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* 使鼠标事件穿透 */
+    z-index: 9999; /* 设置较高的 z-index */
+}
 .column.left{
     width: 30%;
     font-family: myFirstFont;
