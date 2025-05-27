@@ -4,6 +4,7 @@
         url('./D-DIN.otf') 
         format('opentype');
 }
+
 canvas {
     position: fixed; /* 固定在窗口 */
     top: 0;
@@ -13,8 +14,10 @@ canvas {
     pointer-events: none; /* 使鼠标事件穿透 */
     z-index: 9999; /* 设置较高的 z-index */
 }
+
+
 .column.left{
-    width: 30%;
+    width: 27%;
     font-family: myFirstFont;
     font-size: 15px;
     padding: 30px;
@@ -25,6 +28,7 @@ canvas {
     position: fixed;
     top: 10px;
 }
+
 .logo{
     position: absolute;
     position:fixed;
@@ -40,6 +44,14 @@ canvas {
     left:165px;
     /* transform: rotate(90deg); */
     /* transform-origin: right bottom;  */
+}
+
+.ProjectBText, .ProjectAText, .ProjectCText, .ProjectDText{
+    font-family: myFirstFont;
+    font-size: 15px;
+    padding: 15px;
+    text-align: justify;
+    line-height: 1.5;
 }
 
 .moremore{
@@ -63,4 +75,17 @@ canvas {
     transform: rotate(90deg);
     transform-origin: left bottom;
     margin: -20px;
+}
+
+.video{
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden;
+}
+.ProjectADDVideo{
+    position: relative;
+    padding-bottom: 80%; 
+    /* height: 0;  */
+    margin: 0;
 }
