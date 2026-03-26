@@ -29,6 +29,28 @@ canvas {
     top: 10px;
 }
 
+.project-links{
+    margin-top: 36px;
+    text-align: left;
+}
+
+.project-links-title{
+    margin: 0 0 12px;
+    text-transform: none;
+    letter-spacing: 0.08em;
+}
+
+.project-links a{
+    display: block;
+    margin-bottom: 8px;
+    color: inherit;
+    text-decoration: underline;
+}
+
+.project-links a:hover{
+    text-decoration: underline;
+}
+
 .logo{
     position: absolute;
     position:fixed;
