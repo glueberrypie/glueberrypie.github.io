@@ -77,12 +77,40 @@ canvas {
     /* transform-origin: right bottom;  */
 }
 
-.ProjectBText, .ProjectAText, .ProjectCText, .ProjectDText{
+.ProjectBText, .ProjectAText, .ProjectCText, .ProjectDText, .ProjectBExtraText{
     font-family: myFirstFont;
     font-size: 15px;
     padding: 15px;
     text-align: justify;
     line-height: 1.5;
+}
+
+.ProjectBExtraImageCrop {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    margin-top: 1.5em;
+}
+
+.ProjectBExtraImage {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.ProjectBVideo {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.ProjectBExtraText {
+    padding-top: 0;
 }
 
 .moremore{
