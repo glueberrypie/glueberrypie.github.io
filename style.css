@@ -77,7 +77,7 @@ canvas {
     /* transform-origin: right bottom;  */
 }
 
-.ProjectBText, .ProjectAText, .ProjectCText, .ProjectDText, .ProjectBExtraText{
+.ProjectBText, .ProjectAText, .ProjectCText, .ProjectDText, .ProjectBExtraText, .ProjectEText{
     font-family: myFirstFont;
     font-size: 15px;
     padding: 15px;
@@ -129,7 +129,7 @@ canvas {
     vertical-align: top;
     float: right;
 }
-.ProjectAtext, .ProjectBtext, .ProjectCtext, .ProjectDtext, .ProjectADDtext{
+.ProjectAtext, .ProjectBtext, .ProjectCtext, .ProjectDtext, .ProjectADDtext, .ProjectEtext{
     display: inline-block;
     transform: rotate(90deg);
     transform-origin: left bottom;
@@ -138,6 +138,10 @@ canvas {
 
 .ProjectADDtext {
     margin-top: 16px;
+}
+
+.ProjectEtext {
+    white-space: nowrap;
 }
 
 .video{
