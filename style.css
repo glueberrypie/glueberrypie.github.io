@@ -34,25 +34,56 @@ canvas {
     top: 10px;
 }
 
-.project-links{
+.project-links,
+.performance-links{
     margin-top: 36px;
     text-align: left;
 }
 
-.project-links-title{
+.performance-links {
+    margin-top: 72px;
+}
+
+.project-links-title,
+.performance-links-title{
     margin: 0 0 12px;
     text-transform: none;
     letter-spacing: 0.08em;
 }
 
-.project-links a{
+.performance-links-title {
+    margin: 0;
+}
+
+.performance-links a {
+    margin-top: 0;
+}
+
+.project-links a,
+.performance-links a{
     display: block;
     margin-bottom: 8px;
     color: inherit;
     text-decoration: underline;
 }
 
-.project-links a:hover{
+.performance-links a.performance-feature-link {
+    color: #f2d94e;
+}
+
+.performance-links a.performance-feature-link::before {
+    content: "";
+    display: inline-block;
+    width: 0.55em;
+    height: 0.55em;
+    margin-right: 0.45em;
+    border-radius: 50%;
+    background: currentColor;
+    vertical-align: 0.04em;
+}
+
+.project-links a:hover,
+.performance-links a:hover{
     text-decoration: underline;
 }
 
@@ -258,6 +289,10 @@ canvas {
 
     .project-links {
         margin-top: 28px;
+    }
+
+    .performance-links {
+        margin-top: 72px;
     }
 
     .left-contact-spacer {

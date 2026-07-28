@@ -91,3 +91,61 @@ p {
 .knitting-canvas canvas {
     display: block;
 }
+
+.performance-page {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.performance-label {
+    margin-bottom: 4px;
+}
+
+.performance-heading {
+    display: block;
+}
+
+.performance-heading h1 {
+    margin-bottom: 0;
+}
+
+.performance-media {
+    margin-top: 72px;
+}
+
+.performance-image {
+    display: block;
+    width: min(100%, 420px);
+    height: auto;
+    margin: 0 auto;
+}
+
+.performance-image-secondary {
+    margin-top: 24px;
+}
+
+.performance-video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 320px));
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.performance-video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    height: 568px;
+    object-fit: contain;
+    background: #000000;
+}
+
+@media (max-width: 760px) {
+    .performance-video-grid {
+        grid-template-columns: minmax(0, 320px);
+    }
+}
+
+@media (max-width: 380px) {
+    .performance-video-grid {
