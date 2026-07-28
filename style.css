@@ -68,18 +68,13 @@ canvas {
 }
 
 .performance-links a.performance-feature-link {
-    color: #f2d94e;
+    color: #ff4f6d;
 }
 
 .performance-links a.performance-feature-link::before {
-    content: "";
+    content: "๑";
     display: inline-block;
-    width: 0.55em;
-    height: 0.55em;
     margin-right: 0.45em;
-    border-radius: 50%;
-    background: currentColor;
-    vertical-align: 0.04em;
 }
 
 .project-links a:hover,

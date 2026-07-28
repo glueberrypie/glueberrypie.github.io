@@ -97,6 +97,10 @@ p {
     margin: 0 auto;
 }
 
+.performance-back-link {
+    color: #ff4f6d;
+}
+
 .performance-label {
     margin-bottom: 4px;
 }
