@@ -9,6 +9,13 @@
     box-sizing: border-box;
 }
 
+html,
+body,
+a,
+button {
+    cursor: none;
+}
+
 canvas {
     position: fixed; /* 固定在窗口 */
     top: 0;

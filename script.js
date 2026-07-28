@@ -1,5 +1,6 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
+const particleColor = canvas.dataset.particleColor || 'hsl(340, 100%, 80%)';
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -13,7 +14,7 @@ class Particle {
         this.size = Math.random() * 0.99 ;
         this.speedX = (Math.random() - 0.5) * 10; // 随机水平速度
         this.speedY = (Math.random() - 0.5) * 10; // 随机垂直速度
-        this.color = `hsl(340, 100%, 80%)`; // 随机颜色
+        this.color = particleColor;
         this.life = 100; // 粒子生命周期
     }
 
