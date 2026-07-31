@@ -79,13 +79,13 @@ canvas {
 }
 
 .performance-links a.performance-feature-link::before {
-    content: "𓏲";
+    content: "๑";
     display: inline-block;
     margin-right: 0.16em;
-    font-size: 2.4em;
-    font-weight: 700;
-    line-height: 0.72;
-    vertical-align: baseline;
+    font-size: 1.6em;
+    font-weight: 100;
+    line-height: 1;
+    vertical-align: 0.02em;
 }
 
 .project-links a:hover,

@@ -117,7 +117,8 @@ p {
 .performance-back-link {
     color: #ff4f6d;
     font-size: 2.6em;
-    font-weight: 700;
+    font-weight: 100;
+    opacity: 0.62;
     line-height: 1;
 }
 
