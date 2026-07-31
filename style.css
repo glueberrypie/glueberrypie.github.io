@@ -75,6 +75,10 @@ canvas {
     vertical-align: baseline;
 }
 
+.project-links a[hidden] {
+    display: none;
+}
+
 .performance-links-title {
     margin: 0;
 }
