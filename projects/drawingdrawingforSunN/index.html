@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Painting Animal</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css?v=keyboard-hint-buttons">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  
+  </head>
+
+  <body>
+    <a class="back-link" href="../../index.html" aria-label="Back to homepage">࿔</a>
+    <div class="controls" aria-label="Painting Animal controls">
+      <button type="button" onclick="play()">Shhh!</button>
+      <button type="button" data-restart>Oh,no!</button>
+      <span class="control-break" aria-hidden="true"></span>
+      <button class="keyboard-hint" type="button">D and Q for Clean</button>
+      <button class="keyboard-hint" type="button">Try N and K</button>
+      <button class="keyboard-hint" type="button">G = Gogogo!</button>
+      <button class="keyboard-hint" type="button">B = Comeee Back!!</button>
+      <button class="keyboard-hint" type="button" data-record-start>R = Start Recording</button>
+      <button class="keyboard-hint" type="button" data-record-stop disabled>S = Stop &amp; Save</button>
+      <span data-record-status></span>
+    </div>
+    <div>
+      <script src="sketch.js?v=framerate-30"></script>
+      <script src="Particle.js"></script>
+      <script src="recorder.js?v=recording-30fps"></script>
+    </div>
+  </body>
+</html>

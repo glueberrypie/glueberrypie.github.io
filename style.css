@@ -58,6 +58,23 @@ canvas {
     letter-spacing: 0.08em;
 }
 
+.project-links a,
+.project-links a:visited,
+.project-links a:hover {
+    color: #b46cff;
+}
+
+.project-links a::before {
+    content: "࿔";
+    display: inline-block;
+    margin-right: 0.16em;
+    font-size: 1.65em;
+    font-weight: 100;
+    opacity: 0.52;
+    line-height: 0.72;
+    vertical-align: baseline;
+}
+
 .performance-links-title {
     margin: 0;
 }
